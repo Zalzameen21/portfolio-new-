@@ -1,655 +1,796 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Muhammed Zalzameen M K | Portfolio - MCA Student & Full-Stack Python Developer</title>
-    
-    <!-- SEO Meta Tags -->
-    <meta name="description" content="Muhammed Zalzameen M K is an MCA student and full-stack Python developer specializing in building scalable web applications with Django and computer vision systems using OpenCV. Explore projects and skills.">
-    <meta name="keywords" content="Muhammed Zalzameen, Portfolio, MCA Student, Full-Stack Developer, Python, Django, OpenCV, Computer Vision, Web Developer, Resume">
-    <meta name="author" content="Muhammed Zalzameen M K">
-    
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://github.com/zalzameenmk">
-    <meta property="og:title" content="Muhammed Zalzameen M K | Portfolio">
-    <meta property="og:description" content="Detail-oriented MCA student & Python Developer. Successfully built Pharmacy Automation, Student CRM, and LED Brightness Controller.">
-    <meta property="og:image" content="">
-
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    
-    <!-- Lucide Icons -->
-    <script src="https://unpkg.com/lucide@latest"></script>
-    
-    <!-- Stylesheet -->
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Muhammed Zalzameen M K — Python Full Stack & AI Developer Portfolio. MCA graduate specializing in Python, Django, AI/ML, and Quality Assurance.">
+<title>Muhammed Zalzameen M K — Python Full Stack & AI Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
-<body class="dark-theme">
-    <!-- Background elements -->
-    <div class="glow-bg-1"></div>
-    <div class="glow-bg-2"></div>
+<body>
+<div class="noise"></div>
+<div class="cursor-glow"></div>
 
-    <!-- Header & Navigation -->
-    <header class="header" id="header">
-        <nav class="nav container">
-            <a href="#home" class="nav-logo" id="nav-logo">
-                <span class="logo-accent">&lt;</span>Zalzameen<span class="logo-accent">.py /&gt;</span>
-            </a>
-            
-            <div class="nav-menu" id="nav-menu">
-                <ul class="nav-list">
-                    <li class="nav-item"><a href="#home" class="nav-link active-link" id="link-home">Home</a></li>
-                    <li class="nav-item"><a href="#about" class="nav-link" id="link-about">About</a></li>
-                    <li class="nav-item"><a href="#skills" class="nav-link" id="link-skills">Skills</a></li>
-                    <li class="nav-item"><a href="#projects" class="nav-link" id="link-projects">Projects</a></li>
-                    <li class="nav-item"><a href="#education-certs" class="nav-link" id="link-education-certs">Education</a></li>
-                    <li class="nav-item"><a href="#contact" class="nav-link" id="link-contact">Contact</a></li>
-                </ul>
-                <div class="nav-close" id="nav-close">
-                    <i data-lucide="x"></i>
-                </div>
-            </div>
-
-            <div class="nav-actions">
-                <!-- Theme Toggle Button -->
-                <button class="theme-toggle" id="theme-toggle-btn" aria-label="Toggle Theme">
-                    <i data-lucide="sun" class="sun-icon"></i>
-                    <i data-lucide="moon" class="moon-icon"></i>
-                </button>
-                <div class="nav-toggle" id="nav-toggle">
-                    <i data-lucide="menu"></i>
-                </div>
-            </div>
-        </nav>
-    </header>
-
-    <main class="main">
-        <!-- Hero Section -->
-        <section class="hero section" id="home">
-            <div class="hero-container container grid">
-                <div class="hero-content">
-                    <div class="badge-container">
-                        <span class="status-badge" id="status-badge">
-                            <span class="pulse-dot"></span> Open for Opportunities
-                        </span>
-                    </div>
-                    <h1 class="hero-title" id="hero-title">
-                        Hi, I'm <br>
-                        <span class="gradient-text">Muhammed Zalzameen M K</span>
-                    </h1>
-                    <h2 class="hero-subtitle" id="hero-subtitle">
-                        I build <span class="typing-text" id="typing-text">Django Web Apps</span>
-                    </h2>
-                    <p class="hero-description" id="hero-description">
-                        Detail-oriented MCA Student & Full-Stack Python Developer. I specialize in crafting robust backend systems, seamless user interfaces, and computer vision models.
-                    </p>
-                    
-                    <div class="hero-ctas">
-                        <a href="#contact" class="btn btn-primary" id="btn-hero-contact">
-                            Let's Connect <i data-lucide="arrow-right" class="btn-icon"></i>
-                        </a>
-                        <a href="#projects" class="btn btn-secondary" id="btn-hero-projects">
-                            View My Work
-                        </a>
-                    </div>
-
-                    <div class="hero-socials">
-                        <a href="https://github.com/zalzameenmk" target="_blank" rel="noopener noreferrer" class="social-link" id="social-github" aria-label="GitHub">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="social-icon"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
-                        </a>
-                        <a href="https://linkedin.com/in/muhammed-zalzameen-m-k-b841772b3" target="_blank" rel="noopener noreferrer" class="social-link" id="social-linkedin" aria-label="LinkedIn">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="social-icon"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
-                        </a>
-                        <a href="mailto:zalzameenmk@gmail.com" class="social-link" id="social-email" aria-label="Email">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="social-icon"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
-                        </a>
-                        <a href="tel:+917356296069" class="social-link" id="social-phone" aria-label="Phone">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="social-icon"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="hero-visual">
-                    <div class="visual-wrapper">
-                        <div class="blob-outer">
-                            <div class="blob-inner">
-                                <pre class="code-art-text"><code><span class="keyword">import</span> cv2
-<span class="keyword">import</span> django
-
-<span class="class">class</span> <span class="title">Developer</span>:
-    <span class="keyword">def</span> <span class="title">__init__</span>(self):
-        self.name = <span class="string">"Zalzameen"</span>
-        self.role = <span class="string">"MCA Student"</span>
-        self.skills = [<span class="string">"Python"</span>, <span class="string">"Django"</span>]
-        
-    <span class="keyword">def</span> <span class="title">create_impact</span>(self):
-        print(<span class="string">"Transforming ideas..."</span>)
-
-<span class="comment"># Code runs successfully</span>
-dev = Developer()
-dev.create_impact()
-</code></pre>
-                            </div>
-                        </div>
-                        <!-- Sparkles and floating tags -->
-                        <div class="floating-tag tag-python"><span>🐍</span> Python</div>
-                        <div class="floating-tag tag-django"><span>🌐</span> Django</div>
-                        <div class="floating-tag tag-cv"><span>👁️</span> OpenCV</div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="scroll-down">
-                <a href="#about" class="scroll-link" id="scroll-to-about">
-                    <span class="scroll-mouse"><span class="wheel"></span></span>
-                    <span class="scroll-text">Scroll Down</span>
-                </a>
-            </div>
-        </section>
-
-        <!-- About Section -->
-        <section class="about section" id="about">
-            <h2 class="section-title" id="about-title">About Me</h2>
-            <span class="section-subtitle" id="about-subtitle">My professional narrative</span>
-            
-            <div class="about-container container grid">
-                <div class="about-visual">
-                    <div class="stats-card glass-panel" id="about-stats-card">
-                        <div class="stats-item">
-                            <h3 class="stats-number gradient-text" id="stat-projects">3+</h3>
-                            <p class="stats-label">Completed Projects</p>
-                        </div>
-                        <div class="stats-item">
-                            <h3 class="stats-number gradient-text" id="stat-certs">5+</h3>
-                            <p class="stats-label">Certifications</p>
-                        </div>
-                        <div class="stats-item">
-                            <h3 class="stats-number gradient-text" id="stat-exp">MCA</h3>
-                            <p class="stats-label">Degree Focus</p>
-                        </div>
-                    </div>
-                    <div class="about-quote glass-panel" id="about-quote-panel">
-                        <i data-lucide="quote" class="quote-icon"></i>
-                        <p class="quote-text">"Passion for continuous learning, teamwork, and building tech that solves real-world operational bottlenecks."</p>
-                    </div>
-                </div>
-
-                <div class="about-info">
-                    <h3 class="about-heading" id="about-heading-text">Detail-Oriented & Solution-Driven</h3>
-                    <p class="about-description" id="about-p1">
-                        I am currently pursuing my <strong>Master of Computer Applications (MCA)</strong> at AWH Engineering College, building on top of a solid <strong>Bachelor of Computer Applications (BCA)</strong> foundation. My academic path is powered by hands-on engineering, developing end-to-end software applications, and integrating hardware with advanced software layers.
-                    </p>
-                    <p class="about-description" id="about-p2">
-                        I have delivered production-grade projects like a web-based <strong>Pharmacy Automation System</strong>, a comprehensive <strong>Student CRM</strong>, and a computer-vision-driven <strong>LED Brightness Controller</strong>. I love solving problems at the intersection of web backend logic (Python/Django), databases (MySQL), and hardware-level image processing.
-                    </p>
-                    
-                    <div class="about-details grid">
-                        <div class="detail-item">
-                            <i data-lucide="check-circle" class="detail-icon"></i>
-                            <div>
-                                <h4>Full-Stack Mastery</h4>
-                                <p>Responsive frontends combined with scalable Django backends.</p>
-                            </div>
-                        </div>
-                        <div class="detail-item">
-                            <i data-lucide="check-circle" class="detail-icon"></i>
-                            <div>
-                                <h4>Computer Vision & IoT</h4>
-                                <p>OpenCV image processing and hardware integrations.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="about-ctas">
-                        <!-- Direct mailto click for easy interaction, can also link to pdf if user wants -->
-                        <a href="mailto:zalzameenmk@gmail.com" class="btn btn-primary" id="btn-about-hire">
-                            Hire Me <i data-lucide="briefcase" class="btn-icon"></i>
-                        </a>
-                        <a href="tel:+917356296069" class="btn btn-secondary" id="btn-about-call">
-                            Call Direct
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Skills Section -->
-        <section class="skills section" id="skills">
-            <h2 class="section-title" id="skills-title">My Skills</h2>
-            <span class="section-subtitle" id="skills-subtitle">Technical capability matrix</span>
-
-            <div class="skills-container container grid">
-                <!-- Group 1: Languages & Frameworks -->
-                <div class="skills-category glass-panel" id="skills-group-languages">
-                    <h3 class="category-title"><i data-lucide="code-2" class="title-icon"></i> Languages & Frameworks</h3>
-                    <div class="skills-list">
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span class="skill-name">Python</span>
-                                <span class="skill-percentage">90%</span>
-                            </div>
-                            <div class="skill-bar-outer"><div class="skill-bar-inner" style="width: 90%;"></div></div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span class="skill-name">Django Framework</span>
-                                <span class="skill-percentage">85%</span>
-                            </div>
-                            <div class="skill-bar-outer"><div class="skill-bar-inner" style="width: 85%;"></div></div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span class="skill-name">C / C++</span>
-                                <span class="skill-percentage">75%</span>
-                            </div>
-                            <div class="skill-bar-outer"><div class="skill-bar-inner" style="width: 75%;"></div></div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Group 2: Web & Databases -->
-                <div class="skills-category glass-panel" id="skills-group-web">
-                    <h3 class="category-title"><i data-lucide="layout" class="title-icon"></i> Web & Database Technologies</h3>
-                    <div class="skills-list">
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span class="skill-name">HTML5 & CSS3</span>
-                                <span class="skill-percentage">90%</span>
-                            </div>
-                            <div class="skill-bar-outer"><div class="skill-bar-inner" style="width: 90%;"></div></div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span class="skill-name">JavaScript (ES6+)</span>
-                                <span class="skill-percentage">80%</span>
-                            </div>
-                            <div class="skill-bar-outer"><div class="skill-bar-inner" style="width: 80%;"></div></div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span class="skill-name">MySQL / Relational DBs</span>
-                                <span class="skill-percentage">85%</span>
-                            </div>
-                            <div class="skill-bar-outer"><div class="skill-bar-inner" style="width: 85%;"></div></div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Group 3: Computer Vision & Tools -->
-                <div class="skills-category glass-panel" id="skills-group-tools">
-                    <h3 class="category-title"><i data-lucide="wrench" class="title-icon"></i> Computer Vision & Tools</h3>
-                    <div class="skills-list">
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span class="skill-name">OpenCV & Computer Vision</span>
-                                <span class="skill-percentage">80%</span>
-                            </div>
-                            <div class="skill-bar-outer"><div class="skill-bar-inner" style="width: 80%;"></div></div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span class="skill-name">Git & GitHub</span>
-                                <span class="skill-percentage">85%</span>
-                            </div>
-                            <div class="skill-bar-outer"><div class="skill-bar-inner" style="width: 85%;"></div></div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span class="skill-name">VS Code / Dev Tools</span>
-                                <span class="skill-percentage">90%</span>
-                            </div>
-                            <div class="skill-bar-outer"><div class="skill-bar-inner" style="width: 90%;"></div></div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Group 4: Professional Competencies -->
-                <div class="skills-category glass-panel" id="skills-group-soft">
-                    <h3 class="category-title"><i data-lucide="users" class="title-icon"></i> Soft Skills</h3>
-                    <div class="skills-tags">
-                        <span class="skill-tag"><i data-lucide="message-square" class="tag-icon"></i> Communication</span>
-                        <span class="skill-tag"><i data-lucide="award" class="tag-icon"></i> Leadership</span>
-                        <span class="skill-tag"><i data-lucide="git-branch" class="tag-icon"></i> Teamwork</span>
-                        <span class="skill-tag"><i data-lucide="zap" class="tag-icon"></i> Quick Learner</span>
-                        <span class="skill-tag"><i data-lucide="target" class="tag-icon"></i> Problem Solving</span>
-                        <span class="skill-tag"><i data-lucide="check" class="tag-icon"></i> Detail-Oriented</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Projects Section -->
-        <section class="projects section" id="projects">
-            <h2 class="section-title" id="projects-title">Portfolio Projects</h2>
-            <span class="section-subtitle" id="projects-subtitle">Featured works</span>
-
-            <!-- Filter Tabs -->
-            <div class="projects-filters container" id="projects-filters-container">
-                <button class="filter-btn active-filter" data-filter="all" id="filter-all">All</button>
-                <button class="filter-btn" data-filter="web" id="filter-web">Web Applications</button>
-                <button class="filter-btn" data-filter="cv" id="filter-cv">Computer Vision & Hardware</button>
-            </div>
-
-            <!-- Project Cards Grid -->
-            <div class="projects-container container grid" id="projects-grid">
-                <!-- Project 1: LED Brightness -->
-                <article class="project-card glass-panel" data-category="cv" id="project-card-led">
-                    <div class="project-visual bg-gradient-cv">
-                        <i data-lucide="eye" class="project-main-icon"></i>
-                        <span class="project-cat-badge">Computer Vision</span>
-                    </div>
-                    <div class="project-content">
-                        <h3 class="project-title">Thumb & Index Finger LED Brightness System</h3>
-                        <p class="project-description">
-                            Developed a systems engineering solution using computer vision algorithms to detect finger gestures in real time. Measures distance between the thumb and index finger to dynamically adjust hardware LED brightness levels.
-                        </p>
-                        <div class="project-techs">
-                            <span class="tech-tag">OpenCV</span>
-                            <span class="tech-tag">Python</span>
-                            <span class="tech-tag">Real-time Processing</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://github.com/zalzameenmk" target="_blank" rel="noopener noreferrer" class="project-link-btn" id="link-proj-led-code">
-                                <i data-lucide="github"></i> Code Source
-                            </a>
-                        </div>
-                    </div>
-                </article>
-
-                <!-- Project 2: Pharmacy Automation -->
-                <article class="project-card glass-panel" data-category="web" id="project-card-pharmacy">
-                    <div class="project-visual bg-gradient-pharmacy">
-                        <i data-lucide="database" class="project-main-icon"></i>
-                        <span class="project-cat-badge">Web Application</span>
-                    </div>
-                    <div class="project-content">
-                        <h3 class="project-title">Computer Vision Pharmacy Automation System</h3>
-                        <p class="project-description">
-                            Designed and deployed an automated web solution to compute the financial metrics and invoice totals of medicines sold. Streamlines sales tracking over daily, weekly, and monthly intervals.
-                        </p>
-                        <div class="project-techs">
-                            <span class="tech-tag">Python</span>
-                            <span class="tech-tag">Django</span>
-                            <span class="tech-tag">MySQL</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://github.com/zalzameenmk" target="_blank" rel="noopener noreferrer" class="project-link-btn" id="link-proj-pharmacy-code">
-                                <i data-lucide="github"></i> Code Source
-                            </a>
-                        </div>
-                    </div>
-                </article>
-
-                <!-- Project 3: Student CRM -->
-                <article class="project-card glass-panel" data-category="web" id="project-card-crm">
-                    <div class="project-visual bg-gradient-crm">
-                        <i data-lucide="users" class="project-main-icon"></i>
-                        <span class="project-cat-badge">Web Application</span>
-                    </div>
-                    <div class="project-content">
-                        <h3 class="project-title">Student CRM (Customer Relationship Management)</h3>
-                        <p class="project-description">
-                            A highly optimized management software built for an IT training institute. Facilitates lead capturing, student registration progress, database logging, course assignments, and communications.
-                        </p>
-                        <div class="project-techs">
-                            <span class="tech-tag">Python</span>
-                            <span class="tech-tag">Django</span>
-                            <span class="tech-tag">MySQL</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://github.com/zalzameenmk" target="_blank" rel="noopener noreferrer" class="project-link-btn" id="link-proj-crm-code">
-                                <i data-lucide="github"></i> Code Source
-                            </a>
-                        </div>
-                    </div>
-                </article>
-            </div>
-        </section>
-
-        <!-- Education & Certifications Section -->
-        <section class="education-certs section" id="education-certs">
-            <h2 class="section-title" id="edu-certs-title">Education & Credentials</h2>
-            <span class="section-subtitle" id="edu-certs-subtitle">My academic timeline and milestones</span>
-
-            <div class="edu-certs-container container grid">
-                <!-- Education Timeline (Left Column) -->
-                <div class="education-column">
-                    <h3 class="column-title"><i data-lucide="graduation-cap" class="title-icon"></i> Education History</h3>
-                    <div class="timeline" id="education-timeline">
-                        <!-- MCA -->
-                        <div class="timeline-item">
-                            <div class="timeline-dot"></div>
-                            <div class="timeline-date">2024 - Present</div>
-                            <div class="timeline-content glass-panel">
-                                <h4 class="timeline-degree">Master of Computer Applications (MCA)</h4>
-                                <p class="timeline-institution">AWH Engineering College</p>
-                                <p class="timeline-details">Deepening concepts in advanced databases, system design, web infrastructure, and software engineering methodologies.</p>
-                            </div>
-                        </div>
-
-                        <!-- BCA -->
-                        <div class="timeline-item">
-                            <div class="timeline-dot"></div>
-                            <div class="timeline-date">2021 - 2024</div>
-                            <div class="timeline-content glass-panel">
-                                <h4 class="timeline-degree">Bachelor of Computer Applications (BCA)</h4>
-                                <p class="timeline-institution">Bharathiyar University</p>
-                                <p class="timeline-details">Graduated with key foundations in Object-Oriented Programming (C++), computer architecture, data structures, and databases.</p>
-                            </div>
-                        </div>
-
-                        <!-- Higher Secondary -->
-                        <div class="timeline-item">
-                            <div class="timeline-dot"></div>
-                            <div class="timeline-date">2018 - 2019</div>
-                            <div class="timeline-content glass-panel">
-                                <h4 class="timeline-degree">Higher Secondary Education</h4>
-                                <p class="timeline-institution">GHSS Thadathilparamba Aroor</p>
-                                <p class="timeline-details">Focused studies in computer science, science streams, and mathematics foundations.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Certifications (Right Column) -->
-                <div class="certs-column">
-                    <h3 class="column-title"><i data-lucide="award" class="title-icon"></i> Industry Certifications</h3>
-                    <div class="certs-grid" id="certifications-grid">
-                        
-                        <!-- Cert 1 -->
-                        <div class="cert-card glass-panel">
-                            <div class="cert-header">
-                                <i data-lucide="award" class="cert-icon"></i>
-                                <span class="cert-authority">ASAP</span>
-                            </div>
-                            <h4 class="cert-title">Data Analytics using Python</h4>
-                            <p class="cert-desc">Participation Certificate validating analytical logic, pandas, numpy, and data graphing tools.</p>
-                        </div>
-
-                        <!-- Cert 2 -->
-                        <div class="cert-card glass-panel">
-                            <div class="cert-header">
-                                <i data-lucide="award" class="cert-icon"></i>
-                                <span class="cert-authority">Edunet / Softronics</span>
-                            </div>
-                            <h4 class="cert-title">Python and Data Science</h4>
-                            <p class="cert-desc">Comprehensive training in machine learning concepts, data processing scripts, and predictive modeling.</p>
-                        </div>
-
-                        <!-- Cert 3 -->
-                        <div class="cert-card glass-panel">
-                            <div class="cert-header">
-                                <i data-lucide="award" class="cert-icon"></i>
-                                <span class="cert-authority">IIT Kharagpur (NPTEL)</span>
-                            </div>
-                            <h4 class="cert-title">Introduction to Internet of Things</h4>
-                            <p class="cert-desc">NPTEL Online Certification establishing core protocols, sensor integration, and micro-controller communication.</p>
-                        </div>
-
-                        <!-- Cert 4 -->
-                        <div class="cert-card glass-panel">
-                            <div class="cert-header">
-                                <i data-lucide="award" class="cert-icon"></i>
-                                <span class="cert-authority">ICT Academy of Kerala</span>
-                            </div>
-                            <h4 class="cert-title">AI and Robotics</h4>
-                            <p class="cert-desc">Exploration of computer vision workflows, robotics programming, and neural networks integrations.</p>
-                        </div>
-
-                        <!-- Cert 5 -->
-                        <div class="cert-card glass-panel">
-                            <div class="cert-header">
-                                <i data-lucide="award" class="cert-icon"></i>
-                                <span class="cert-authority">Info Campus</span>
-                            </div>
-                            <h4 class="cert-title">Python & Django Professional</h4>
-                            <p class="cert-desc">In-depth development of dynamic MVC architectures, server-side templating, and relational db integrity.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Contact Section -->
-        <section class="contact section" id="contact">
-            <h2 class="section-title" id="contact-title">Get In Touch</h2>
-            <span class="section-subtitle" id="contact-subtitle">Let's discuss projects or job opportunities</span>
-
-            <div class="contact-container container grid">
-                <!-- Info cards -->
-                <div class="contact-info-panel">
-                    <h3 class="contact-heading" id="contact-heading-text">Talk to Me</h3>
-                    
-                    <div class="contact-cards grid">
-                        <!-- Email Card -->
-                        <div class="contact-info-card glass-panel" id="contact-card-email">
-                            <i data-lucide="mail" class="contact-card-icon"></i>
-                            <h4 class="contact-card-title">Email</h4>
-                            <span class="contact-card-data">zalzameenmk@gmail.com</span>
-                            <a href="mailto:zalzameenmk@gmail.com" class="contact-card-btn">
-                                Write me <i data-lucide="arrow-right" class="btn-icon-sm"></i>
-                            </a>
-                        </div>
-
-                        <!-- Phone Card -->
-                        <div class="contact-info-card glass-panel" id="contact-card-phone">
-                            <i data-lucide="phone" class="contact-card-icon"></i>
-                            <h4 class="contact-card-title">Phone</h4>
-                            <span class="contact-card-data">+91 7356296069</span>
-                            <a href="tel:+917356296069" class="contact-card-btn">
-                                Call / Message <i data-lucide="arrow-right" class="btn-icon-sm"></i>
-                            </a>
-                        </div>
-
-                        <!-- Location Card -->
-                        <div class="contact-info-card glass-panel" id="contact-card-location">
-                            <i data-lucide="map-pin" class="contact-card-icon"></i>
-                            <h4 class="contact-card-title">Location</h4>
-                            <span class="contact-card-data">Kerala, India</span>
-                            <span class="contact-card-btn-text">Open to Relocation</span>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Form -->
-                <div class="contact-form-panel glass-panel">
-                    <h3 class="contact-heading">Send a Message</h3>
-                    
-                    <form action="" class="contact-form" id="contact-form-element">
-                        <div class="form-group">
-                            <label for="form-name" class="form-label">Full Name</label>
-                            <input type="text" id="form-name" placeholder="John Doe" class="form-input" required autocomplete="name">
-                            <span class="error-message" id="error-name">Please enter your name.</span>
-                        </div>
-
-                        <div class="form-group">
-                            <label for="form-email" class="form-label">Email Address</label>
-                            <input type="email" id="form-email" placeholder="john@example.com" class="form-input" required autocomplete="email">
-                            <span class="error-message" id="error-email">Please enter a valid email address.</span>
-                        </div>
-
-                        <div class="form-group">
-                            <label for="form-subject" class="form-label">Subject</label>
-                            <input type="text" id="form-subject" placeholder="Project Inquiry / Job Offer" class="form-input" required>
-                            <span class="error-message" id="error-subject">Please enter a subject.</span>
-                        </div>
-
-                        <div class="form-group">
-                            <label for="form-message" class="form-label">Message</label>
-                            <textarea id="form-message" cols="30" rows="5" placeholder="Write your message here..." class="form-input form-textarea" required></textarea>
-                            <span class="error-message" id="error-message-field">Please enter your message.</span>
-                        </div>
-
-                        <button type="submit" class="btn btn-primary form-submit-btn" id="btn-submit-form">
-                            Send Message <i data-lucide="send" class="btn-icon"></i>
-                        </button>
-                    </form>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="footer-container container grid">
-            <div class="footer-logo-desc">
-                <a href="#home" class="footer-logo">
-                    <span class="logo-accent">&lt;</span>Zalzameen<span class="logo-accent">.py /&gt;</span>
-                </a>
-                <p class="footer-text">Building scalable solutions, combining full-stack web and smart computer vision workflows.</p>
-            </div>
-
-            <div class="footer-links">
-                <h4 class="footer-title">Navigation</h4>
-                <ul class="footer-list">
-                    <li><a href="#home" class="footer-link">Home</a></li>
-                    <li><a href="#about" class="footer-link">About</a></li>
-                    <li><a href="#skills" class="footer-link">Skills</a></li>
-                    <li><a href="#projects" class="footer-link">Projects</a></li>
-                </ul>
-            </div>
-
-            <div class="footer-socials">
-                <h4 class="footer-title">Connect</h4>
-                <div class="footer-social-icons">
-                    <a href="https://github.com/zalzameenmk" target="_blank" rel="noopener noreferrer" class="footer-social-link" id="footer-github" aria-label="GitHub">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="social-icon"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
-                    </a>
-                    <a href="https://linkedin.com/in/muhammed-zalzameen-m-k-b841772b3" target="_blank" rel="noopener noreferrer" class="footer-social-link" id="footer-linkedin" aria-label="LinkedIn">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="social-icon"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
-                    </a>
-                    <a href="mailto:zalzameenmk@gmail.com" class="footer-social-link" id="footer-mail" aria-label="Email">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="social-icon"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
-                    </a>
-                </div>
-            </div>
-        </div>
-        <p class="footer-copy">&#169; 2026 Muhammed Zalzameen M K. All rights reserved.</p>
-    </footer>
-
-    <!-- Back to Top -->
-    <a href="#home" class="scroll-up" id="scroll-up-btn" aria-label="Scroll to Top">
-        <i data-lucide="arrow-up"></i>
+<header class="nav">
+  <a class="brand" href="#home">
+    <span class="brand-badge">ZM</span>
+    <div class="brand-text">
+      <b>Zalzameen</b>
+      <small>Python & AI Dev</small>
+    </div>
+  </a>
+  <button class="menu" aria-label="Toggle navigation" id="menuToggle">
+    <span></span><span></span><span></span>
+  </button>
+  <nav id="mainNav">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#education">Education</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <div class="nav-right">
+    <a class="nav-social" href="https://www.linkedin.com/in/zalzameenmk21" target="_blank" rel="noopener" aria-label="LinkedIn">
+      <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 10.9v8.37H9.2V10.9H6.46M7.83 6.45a1.6 1.6 0 1 0 0 3.2 1.6 1.6 0 0 0 0-3.2z"/></svg>
+      <span>LinkedIn</span>
     </a>
+    <a class="nav-cta" href="#contact">Let's Talk <span>↗</span></a>
+  </div>
+</header>
 
-    <!-- Success Modal -->
-    <div class="modal" id="success-modal">
-        <div class="modal-content glass-panel">
-            <div class="modal-close" id="modal-close-btn">
-                <i data-lucide="x"></i>
-            </div>
-            <i data-lucide="check-circle" class="modal-success-icon"></i>
-            <h3 class="modal-title">Message Sent!</h3>
-            <p class="modal-description">Thank you for reaching out. Muhammed Zalzameen M K will respond to your email as soon as possible.</p>
-            <button class="btn btn-primary" id="modal-confirm-btn">Close</button>
-        </div>
+<main>
+<!-- HERO SECTION -->
+<section id="home" class="hero">
+  <div class="orb orb-crimson"></div>
+  <div class="orb orb-forest"></div>
+  <div class="grid-overlay"></div>
+
+  <div class="hero-left reveal">
+    <div class="status-pill">
+      <span class="status-dot"></span>
+      <span>Available for Opportunities</span>
+      <span class="pill-divider">•</span>
+      <span class="pill-loc">Kerala, India</span>
     </div>
 
-    <!-- Script -->
-    <script src="script.js"></script>
+    <p class="kicker"><span class="kicker-tag">PORTFOLIO</span> PYTHON FULL STACK & AI DEVELOPER</p>
+    <h1>Architecting <em>intelligent</em> & scalable systems.</h1>
+    <p class="lead">
+      I'm <strong>Muhammed Zalzameen M K</strong>, an MCA graduate engineering end-to-end web applications, machine learning prediction pipelines, and real-time solutions using Python, Django, and modern AI toolkits.
+    </p>
+
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="#projects">
+        <span>Explore Selected Work</span>
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 13l5 5 5-5M12 4v14"/></svg>
+      </a>
+      <a class="btn btn-secondary" href="https://www.linkedin.com/in/zalzameenmk21" target="_blank" rel="noopener">
+        <svg width="15" height="15" fill="currentColor" viewBox="0 0 24 24"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 10.9v8.37H9.2V10.9H6.46M7.83 6.45a1.6 1.6 0 1 0 0 3.2 1.6 1.6 0 0 0 0-3.2z"/></svg>
+        <span>Connect on LinkedIn ↗</span>
+      </a>
+      <a class="btn btn-ghost" href="https://github.com/Zalzameen21" target="_blank" rel="noopener">
+        <svg width="15" height="15" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+        <span>GitHub ↗</span>
+      </a>
+    </div>
+
+    <div class="contact-strip">
+      <a href="mailto:zalzameenmk@gmail.com" class="strip-item">
+        <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><path d="M22 6l-10 7L2 6"/></svg>
+        <span>zalzameenmk@gmail.com</span>
+      </a>
+      <span class="sep">•</span>
+      <a href="tel:+917356296069" class="strip-item">
+        <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        <span>+91 7356296069</span>
+      </a>
+    </div>
+  </div>
+
+  <div class="hero-right reveal delay">
+    <div class="code-card">
+      <div class="code-top">
+        <div class="code-dots"><i></i><i></i><i></i></div>
+        <span class="code-filename"><svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 14.5v-9l6 4.5-6 4.5z"/></svg> zalzameen_profile.py</span>
+        <span class="code-lang">Python 3.11</span>
+      </div>
+      <div class="code-body">
+<pre><span class="c-dim"># Engineer & Builder Profile</span>
+<span class="c-crimson">class</span> <span class="c-forest">MuhammedZalzameen</span>:
+    education = <span class="c-text">"MCA — KTU (2024–2026)"</span>
+    roles = [<span class="c-accent">"Full Stack Dev"</span>, <span class="c-accent">"AI Engineer"</span>, <span class="c-accent">"QA"</span>]
+    
+    stack = {
+        <span class="c-crimson">"core"</span>: [<span class="c-accent">"Python"</span>, <span class="c-accent">"Django"</span>, <span class="c-accent">"REST APIs"</span>],
+        <span class="c-crimson">"ai_ml"</span>: [<span class="c-accent">"Scikit-Learn"</span>, <span class="c-accent">"Pandas"</span>, <span class="c-accent">"OpenCV"</span>],
+        <span class="c-crimson">"database"</span>: [<span class="c-accent">"MySQL"</span>, <span class="c-accent">"SQLite"</span>],
+        <span class="c-crimson">"qa"</span>: [<span class="c-accent">"Postman"</span>, <span class="c-accent">"Manual"</span>, <span class="c-accent">"Playwright"</span>]
+    }
+
+    <span class="c-crimson">def</span> <span class="c-forest">deploy_impact</span>(self):
+        <span class="c-crimson">return</span> <span class="c-accent">"ML-Powered Production Apps"</span><span class="cursor">_</span></pre>
+      </div>
+      <div class="code-footer">
+        <span class="badge-status">● Live Pipeline Active</span>
+        <span class="badge-sec">Safe/Threat Classifier • 3-5s stream</span>
+      </div>
+    </div>
+
+    <div class="floating-card fc-one">
+      <div class="fc-icon fc-crimson-icon">⚡</div>
+      <div>
+        <strong>Real-Time AI</strong>
+        <small>Threat detection every 3s</small>
+      </div>
+    </div>
+    <div class="floating-card fc-two">
+      <div class="fc-icon fc-forest-icon">🎓</div>
+      <div>
+        <strong>MCA Scholar</strong>
+        <small>AWH Eng College / KTU</small>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MARQUEE TECH TICKER -->
+<section class="marquee" aria-hidden="true">
+  <div class="track">
+    <span>PYTHON</span><b class="spark">✦</b>
+    <span>DJANGO</span><b class="spark">✦</b>
+    <span>ARTIFICIAL INTELLIGENCE</span><b class="spark">✦</b>
+    <span>MACHINE LEARNING</span><b class="spark">✦</b>
+    <span>REST APIS</span><b class="spark">✦</b>
+    <span>POSTMAN QA TESTING</span><b class="spark">✦</b>
+    <span>MYSQL & SQLITE</span><b class="spark">✦</b>
+    <span>SCIKIT-LEARN & PANDAS</span><b class="spark">✦</b>
+    <span>OPENCV & MEDIAPIPE</span><b class="spark">✦</b>
+    <span>DATA SCRAPING</span><b class="spark">✦</b>
+    <span>PYTHON</span><b class="spark">✦</b>
+    <span>DJANGO</span><b class="spark">✦</b>
+    <span>ARTIFICIAL INTELLIGENCE</span><b class="spark">✦</b>
+    <span>MACHINE LEARNING</span><b class="spark">✦</b>
+    <span>REST APIS</span><b class="spark">✦</b>
+    <span>POSTMAN QA TESTING</span><b class="spark">✦</b>
+  </div>
+</section>
+
+<!-- ABOUT SECTION -->
+<section id="about" class="section">
+  <div class="section-label reveal">
+    <span class="label-idx">01</span>
+    <span class="label-line"></span>
+    <span class="label-title">PROFESSIONAL SUMMARY</span>
+  </div>
+
+  <div class="two-col">
+    <div class="reveal">
+      <h2 class="section-title">
+        Bridging robust backend logic with <span>AI intelligence.</span>
+      </h2>
+      <div class="about-highlight-box">
+        <p class="crimson-highlight">"Passionate about software quality, software engineering, Artificial Intelligence, and developing innovative real-world solutions."</p>
+      </div>
+    </div>
+    <div class="reveal">
+      <p class="big-copy">
+        I am a highly motivated <strong>Master of Computer Applications (MCA)</strong> scholar with hands-on experience spanning Python Full Stack Development, Artificial Intelligence, Data Processing, Quality Assurance (QA) Testing, and scalable Web Systems.
+      </p>
+      <p class="muted">
+        Through rigorous industry internships at <strong>Cognilearn</strong>, <strong>Info Campus</strong>, and <strong>ICT Academy of Kerala</strong>, I have worked on end-to-end data scraping, dataset cleaning, machine learning model serialization with Pickle, sub-5-second real-time threat stream classification, automated buzzer/sensing systems, and AI resume analytics.
+      </p>
+
+      <div class="summary-stats">
+        <div class="stat-box">
+          <div class="stat-top"><span class="stat-num">MCA</span><span class="stat-badge">2024–26</span></div>
+          <p>AWH Engineering College (KTU)</p>
+        </div>
+        <div class="stat-box">
+          <div class="stat-top"><span class="stat-num">BCA</span><span class="stat-badge">2021–24</span></div>
+          <p>Bharathiar University</p>
+        </div>
+        <div class="stat-box">
+          <div class="stat-top"><span class="stat-num">08+</span><span class="stat-badge">Projects</span></div>
+          <p>AI, Full Stack, IoT & Automation</p>
+        </div>
+      </div>
+
+      <div class="social-badges">
+        <a href="https://www.linkedin.com/in/zalzameenmk21" target="_blank" rel="noopener" class="badge-link linkedin">
+          <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 10.9v8.37H9.2V10.9H6.46M7.83 6.45a1.6 1.6 0 1 0 0 3.2 1.6 1.6 0 0 0 0-3.2z"/></svg>
+          <span>linkedin.com/in/zalzameenmk21 ↗</span>
+        </a>
+        <a href="https://github.com/Zalzameen21" target="_blank" rel="noopener" class="badge-link github">
+          <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+          <span>github.com/Zalzameen21 ↗</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS / TECHNICAL TOOLKIT -->
+<section id="skills" class="section section-dark">
+  <div class="section-label reveal">
+    <span class="label-idx">02</span>
+    <span class="label-line"></span>
+    <span class="label-title">TECHNICAL TOOLKIT & SKILLS</span>
+  </div>
+
+  <div class="section-head reveal">
+    <h2 class="section-title">Core capabilities from <span>my resume.</span></h2>
+    <p>Categorized skill proficiencies developed through university studies, certifications, and industry internships.</p>
+  </div>
+
+  <div class="skill-category-grid">
+    <!-- Category 1 -->
+    <div class="skill-card reveal">
+      <div class="card-glow"></div>
+      <div class="skill-header">
+        <span class="skill-icon">🐍</span>
+        <div>
+          <h3>Programming Languages</h3>
+          <small>Core Foundation</small>
+        </div>
+      </div>
+      <p class="skill-desc">Object-oriented programming, data structures, algorithm design, and system scripts.</p>
+      <div class="tag-list">
+        <span class="tag tag-crimson">Python</span>
+        <span class="tag">Java</span>
+        <span class="tag">C</span>
+        <span class="tag">C++</span>
+      </div>
+    </div>
+
+    <!-- Category 2 -->
+    <div class="skill-card reveal">
+      <div class="card-glow"></div>
+      <div class="skill-header">
+        <span class="skill-icon">⚙️</span>
+        <div>
+          <h3>Backend & APIs</h3>
+          <small>Server Architecture</small>
+        </div>
+      </div>
+      <p class="skill-desc">Scalable RESTful services, Django architecture, CRUD operations, and secure authentication.</p>
+      <div class="tag-list">
+        <span class="tag tag-forest">Django</span>
+        <span class="tag tag-forest">Django REST Framework</span>
+        <span class="tag">REST APIs</span>
+        <span class="tag">Authentication</span>
+      </div>
+    </div>
+
+    <!-- Category 3 -->
+    <div class="skill-card reveal">
+      <div class="card-glow"></div>
+      <div class="skill-header">
+        <span class="skill-icon">🧠</span>
+        <div>
+          <h3>Data & Artificial Intelligence</h3>
+          <small>ML & Computer Vision</small>
+        </div>
+      </div>
+      <p class="skill-desc">Data scraping, preprocessing, dataset cleaning, machine learning models, and computer vision.</p>
+      <div class="tag-list">
+        <span class="tag tag-crimson">Data Scraping</span>
+        <span class="tag tag-forest">Cleaning & Preprocessing</span>
+        <span class="tag">Pandas</span>
+        <span class="tag">NumPy</span>
+        <span class="tag">Scikit-learn</span>
+        <span class="tag">Pickle</span>
+        <span class="tag">OpenCV</span>
+        <span class="tag">MediaPipe</span>
+      </div>
+    </div>
+
+    <!-- Category 4 -->
+    <div class="skill-card reveal">
+      <div class="card-glow"></div>
+      <div class="skill-header">
+        <span class="skill-icon">🧪</span>
+        <div>
+          <h3>Testing & Quality Assurance</h3>
+          <small>Verification & Reliability</small>
+        </div>
+      </div>
+      <p class="skill-desc">End-to-end API verification, contract testing, automated browser testing, and bug reporting.</p>
+      <div class="tag-list">
+        <span class="tag tag-crimson">Manual Testing</span>
+        <span class="tag tag-crimson">API Testing (Postman)</span>
+        <span class="tag">Basic Playwright</span>
+        <span class="tag">Basic Selenium</span>
+      </div>
+    </div>
+
+    <!-- Category 5 -->
+    <div class="skill-card reveal">
+      <div class="card-glow"></div>
+      <div class="skill-header">
+        <span class="skill-icon">🗄️</span>
+        <div>
+          <h3>Databases</h3>
+          <small>Data Persistence</small>
+        </div>
+      </div>
+      <p class="skill-desc">Relational schemas, query optimization, data indexing, and migration management.</p>
+      <div class="tag-list">
+        <span class="tag tag-forest">MySQL</span>
+        <span class="tag tag-forest">SQLite</span>
+        <span class="tag">ORM Mapping</span>
+      </div>
+    </div>
+
+    <!-- Category 6 -->
+    <div class="skill-card reveal">
+      <div class="card-glow"></div>
+      <div class="skill-header">
+        <span class="skill-icon">🎨</span>
+        <div>
+          <h3>Frontend Technologies</h3>
+          <small>UI/UX Design</small>
+        </div>
+      </div>
+      <p class="skill-desc">Responsive layouts, semantic markup, interactive client-side logic, and clean CSS styling.</p>
+      <div class="tag-list">
+        <span class="tag">HTML5</span>
+        <span class="tag">CSS3</span>
+        <span class="tag">JavaScript</span>
+        <span class="tag">Bootstrap</span>
+      </div>
+    </div>
+
+    <!-- Category 7 -->
+    <div class="skill-card reveal">
+      <div class="card-glow"></div>
+      <div class="skill-header">
+        <span class="skill-icon">🛠️</span>
+        <div>
+          <h3>Tools & Technologies</h3>
+          <small>DevOps & Hardware</small>
+        </div>
+      </div>
+      <p class="skill-desc">Version control, sprint collaboration, embedded microcontrollers, and developer environments.</p>
+      <div class="tag-list">
+        <span class="tag tag-forest">Git</span>
+        <span class="tag tag-forest">GitHub</span>
+        <span class="tag">VS Code</span>
+        <span class="tag">Arduino IDE</span>
+        <span class="tag">Jira</span>
+      </div>
+    </div>
+
+    <!-- Category 8 -->
+    <div class="skill-card reveal">
+      <div class="card-glow"></div>
+      <div class="skill-header">
+        <span class="skill-icon">🌐</span>
+        <div>
+          <h3>Soft Skills & Languages</h3>
+          <small>Collaboration</small>
+        </div>
+      </div>
+      <p class="skill-desc">Effective team communication, structured problem solving, and multilingual fluency.</p>
+      <div class="tag-list">
+        <span class="tag tag-crimson">Problem Solving</span>
+        <span class="tag">Teamwork</span>
+        <span class="tag">Leadership</span>
+        <span class="tag">Time Management</span>
+        <span class="tag tag-dim">English</span>
+        <span class="tag tag-dim">Malayalam</span>
+        <span class="tag tag-dim">Hindi</span>
+        <span class="tag tag-dim">Tamil</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- INTERNSHIP EXPERIENCE -->
+<section id="experience" class="section">
+  <div class="section-label reveal">
+    <span class="label-idx">03</span>
+    <span class="label-line"></span>
+    <span class="label-title">INTERNSHIP EXPERIENCE</span>
+  </div>
+
+  <div class="section-head reveal">
+    <h2 class="section-title">Practical exposure & <span>proven impact.</span></h2>
+    <p>Hands-on engineering roles documented directly in my professional curriculum vitae.</p>
+  </div>
+
+  <div class="experience-timeline">
+    <!-- Internship 1 -->
+    <div class="exp-item reveal">
+      <div class="exp-badge">
+        <span class="badge-role">AI / ML Intern</span>
+        <span class="badge-org">Cognilearn</span>
+      </div>
+      <div class="exp-content">
+        <div class="exp-header">
+          <h3>Cognilearn</h3>
+          <span class="exp-tech">Python • Django • Pandas • NumPy • Scikit-learn • Pickle • HTML • CSS • JavaScript</span>
+        </div>
+        <ul class="exp-bullets">
+          <li><strong>Real-Time Threat Detection Stream:</strong> Cleaned and preprocessed complex datasets by handling missing values, removing duplicates, and preparing data for machine learning models. Built and deployed a web application integrating a trained ML model via <code>Pickle</code> that receives data streams every 3–5 seconds and predicts safe vs. threat states.</li>
+          <li><strong>AI Resume Analyzer:</strong> Developed and rigorously tested an AI Resume Analyzer to verify resume parsing, ATS score computation, and application stability.</li>
+          <li><strong>Multilingual Voice Translator:</strong> Contributed to a speech translation application featuring background noise suppression and text-to-speech rendering.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Internship 2 -->
+    <div class="exp-item reveal">
+      <div class="exp-badge">
+        <span class="badge-role">Full Stack Intern</span>
+        <span class="badge-org">Info Campus</span>
+      </div>
+      <div class="exp-content">
+        <div class="exp-header">
+          <h3>Python Full Stack Development — Info Campus</h3>
+          <span class="exp-tech">Python • Django • HTML • CSS • JavaScript • Bootstrap • MySQL</span>
+        </div>
+        <ul class="exp-bullets">
+          <li>Implemented secure <strong>CRUD operations</strong>, user authentication modules, session handlers, and backend business logic.</li>
+          <li>Designed responsive user interfaces using <strong>HTML, CSS, JavaScript, and Bootstrap</strong>.</li>
+          <li>Integrated relational <strong>MySQL databases</strong> with normalized tables and optimized query performance.</li>
+          <li>Architected and deployed responsive Django web applications adhering to clean MVC/MVT patterns.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Internship 3 -->
+    <div class="exp-item reveal">
+      <div class="exp-badge">
+        <span class="badge-role">IoT / AI Intern</span>
+        <span class="badge-org">ICT Academy</span>
+      </div>
+      <div class="exp-content">
+        <div class="exp-header">
+          <h3>AI & Robotics — ICT Academy of Kerala</h3>
+          <span class="exp-tech">Arduino Uno • LM35 Sensor • Embedded C/Python • Hardware Prototyping</span>
+        </div>
+        <ul class="exp-bullets">
+          <li>Developed an <strong>Automatic Temperature Sensing and Buzzer Alert System</strong> utilizing an Arduino Uno microcontroller and LM35 precision analog temperature sensor.</li>
+          <li>Programmed real-time calibration loops and automatic threshold buzzer alerts for environment safety monitoring.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS SECTION -->
+<section id="projects" class="section section-dark">
+  <div class="section-label reveal">
+    <span class="label-idx">04</span>
+    <span class="label-line"></span>
+    <span class="label-title">FEATURED PROJECTS</span>
+  </div>
+
+  <div class="section-head reveal">
+    <h2 class="section-title">Projects documented in <span>my resume.</span></h2>
+    <p>A comprehensive catalog of machine learning systems, web platforms, and automated tools.</p>
+  </div>
+
+  <div class="projects-grid">
+    <!-- Project 1 (Featured) -->
+    <article class="project-card project-featured reveal">
+      <div class="project-header">
+        <span class="project-pill pill-crimson">REAL-TIME MACHINE LEARNING</span>
+        <span class="project-index">01</span>
+      </div>
+      <div class="project-body">
+        <h3>Real-Time Threat Detection System</h3>
+        <p class="project-summary">
+          A high-frequency machine learning web application that classifies incoming network and telemetry records as <strong>Safe</strong> or <strong>Threat</strong> in real-time, operating on dynamic 3–5 second intervals.
+        </p>
+        <ul class="project-points">
+          <li>Collected and cleaned training data through automated data scraping pipelines.</li>
+          <li>Performed extensive exploratory data analysis and feature engineering before model training.</li>
+          <li>Serialized and deployed the trained Scikit-learn predictive model into Django using <code>Pickle</code>.</li>
+          <li>Engineered real-time classified alert notifications for anomaly detection.</li>
+        </ul>
+        <div class="chips">
+          <span class="chip-primary">Python</span>
+          <span class="chip-primary">Django</span>
+          <span>Pandas</span>
+          <span>Scikit-learn</span>
+          <span>Pickle</span>
+          <span>HTML/CSS/JS</span>
+        </div>
+      </div>
+    </article>
+
+    <!-- Project 2 -->
+    <article class="project-card reveal">
+      <div class="project-header">
+        <span class="project-pill pill-forest">AI & QUALITY ASSURANCE</span>
+        <span class="project-index">02</span>
+      </div>
+      <div class="project-body">
+        <h3>AI Resume Analyzer</h3>
+        <p class="project-summary">
+          An intelligent web application comparing resumes with job descriptions to compute ATS match scores and output targeted, AI-driven improvement suggestions.
+        </p>
+        <ul class="project-points">
+          <li>Provides instant feedback on missing keywords, skills, and formatting discrepancies.</li>
+          <li>Engineered responsive upload interface and verified API contracts with Postman testing.</li>
+        </ul>
+        <div class="chips">
+          <span class="chip-primary">Python</span>
+          <span class="chip-primary">Django</span>
+          <span>Postman</span>
+          <span>HTML5</span>
+          <span>JavaScript</span>
+        </div>
+        <div class="project-actions">
+          <a href="https://github.com/Zalzameen21/Resume-Analyzer" target="_blank" rel="noopener" class="link-btn">
+            <span>View on GitHub</span>
+            <svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+          </a>
+        </div>
+      </div>
+    </article>
+
+    <!-- Project 3 -->
+    <article class="project-card reveal">
+      <div class="project-header">
+        <span class="project-pill">AI & SPEECH PROCESSING</span>
+        <span class="project-index">03</span>
+      </div>
+      <div class="project-body">
+        <h3>AI Voice Translator</h3>
+        <p class="project-summary">
+          A multilingual speech translation platform supporting speech recognition, audio noise reduction, and bidirectional speech-to-text / text-to-speech synthesis.
+        </p>
+        <ul class="project-points">
+          <li>Converts spoken dialects into translated text and renders natural spoken audio.</li>
+          <li>Features background noise reduction routines for enhanced vocal clarity.</li>
+        </ul>
+        <div class="chips">
+          <span class="chip-primary">Python</span>
+          <span>Audio Processing</span>
+          <span>Speech Recognition</span>
+          <span>HTML/CSS/JS</span>
+        </div>
+      </div>
+    </article>
+
+    <!-- Project 4 -->
+    <article class="project-card reveal">
+      <div class="project-header">
+        <span class="project-pill pill-crimson">COMPUTER VISION & IOT</span>
+        <span class="project-index">04</span>
+      </div>
+      <div class="project-body">
+        <h3>Smart Gesture-Based Lighting Management</h3>
+        <p class="project-summary">
+          A touch-free intelligent automation system employing OpenCV and MediaPipe for real-time hand landmark tracking and gesture recognition.
+        </p>
+        <ul class="project-points">
+          <li>Tracks hand and finger geometry in real-time using camera feeds.</li>
+          <li>Dynamically controls room LED illumination levels based on finger spacing and gestures.</li>
+        </ul>
+        <div class="chips">
+          <span class="chip-primary">Python</span>
+          <span class="chip-crimson">OpenCV</span>
+          <span>MediaPipe</span>
+          <span>Hardware / LED</span>
+        </div>
+      </div>
+    </article>
+
+    <!-- Project 5 -->
+    <article class="project-card reveal">
+      <div class="project-header">
+        <span class="project-pill pill-forest">ENTERPRISE WEB APPLICATION</span>
+        <span class="project-index">05</span>
+      </div>
+      <div class="project-body">
+        <h3>Student CRM System</h3>
+        <p class="project-summary">
+          Comprehensive customer relationship and lifecycle software tailored for training institutes to streamline admissions and administrative workflows.
+        </p>
+        <ul class="project-points">
+          <li>End-to-end inquiry management, batch allocation, and student registration.</li>
+          <li>Role-based authentication, student records, and automated administrative reporting.</li>
+        </ul>
+        <div class="chips">
+          <span class="chip-primary">Python</span>
+          <span class="chip-primary">Django</span>
+          <span class="chip-forest">MySQL</span>
+          <span>Bootstrap</span>
+        </div>
+      </div>
+    </article>
+
+    <!-- Project 6 -->
+    <article class="project-card reveal">
+      <div class="project-header">
+        <span class="project-pill">COMMERCE & AUTOMATION</span>
+        <span class="project-index">06</span>
+      </div>
+      <div class="project-body">
+        <h3>Cake E-Commerce & Pharmacy Automation</h3>
+        <p class="project-summary">
+          Dual production-grade web solutions designed to automate inventory, product catalogs, point-of-sale billing, and automated revenue dashboards.
+        </p>
+        <ul class="project-points">
+          <li><strong>Cake E-Commerce:</strong> Product catalog, responsive shopping cart, order placement, and admin sales analytics.</li>
+          <li><strong>Pharmacy System:</strong> Prescription billing, stock inventory management, and automated sales metrics.</li>
+        </ul>
+        <div class="chips">
+          <span class="chip-primary">Python</span>
+          <span class="chip-primary">Django</span>
+          <span>MySQL</span>
+          <span>Web Automation</span>
+        </div>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- EDUCATION & CERTIFICATIONS -->
+<section id="education" class="section">
+  <div class="section-label reveal">
+    <span class="label-idx">05</span>
+    <span class="label-line"></span>
+    <span class="label-title">EDUCATION & CREDENTIALS</span>
+  </div>
+
+  <div class="two-col edu-cert-wrap">
+    <!-- Education Column -->
+    <div class="reveal">
+      <h2 class="section-title">Academic <span>journey.</span></h2>
+      <div class="edu-stack">
+        <div class="edu-item">
+          <div class="edu-time">2024 — 2026</div>
+          <div class="edu-details">
+            <span class="edu-tag tag-forest">Postgraduate</span>
+            <h3>Master of Computer Applications (MCA)</h3>
+            <p class="edu-college">AWH Engineering College</p>
+            <p class="edu-uni">APJ Abdul Kalam Technological University (KTU)</p>
+          </div>
+        </div>
+
+        <div class="edu-item">
+          <div class="edu-time">2021 — 2024</div>
+          <div class="edu-details">
+            <span class="edu-tag">Undergraduate</span>
+            <h3>Bachelor of Computer Applications (BCA)</h3>
+            <p class="edu-uni">Bharathiar University</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Certifications Column -->
+    <div class="reveal">
+      <h2 class="section-title">Industry <span>certifications.</span></h2>
+      <div class="cert-list">
+        <div class="cert-item">
+          <div class="cert-badge-icon">✦</div>
+          <div>
+            <h4>Python Full Stack Development</h4>
+            <p>Info Campus</p>
+          </div>
+        </div>
+        <div class="cert-item">
+          <div class="cert-badge-icon">✦</div>
+          <div>
+            <h4>Data Analytics Using Python</h4>
+            <p>ASAP Kerala</p>
+          </div>
+        </div>
+        <div class="cert-item">
+          <div class="cert-badge-icon">✦</div>
+          <div>
+            <h4>Python and Data Science</h4>
+            <p>Edunet Foundation</p>
+          </div>
+        </div>
+        <div class="cert-item">
+          <div class="cert-badge-icon">✦</div>
+          <div>
+            <h4>AI & Robotics</h4>
+            <p>ICT Academy of Kerala</p>
+          </div>
+        </div>
+        <div class="cert-item cert-featured">
+          <div class="cert-badge-icon">★</div>
+          <div>
+            <h4>Introduction to Internet of Things</h4>
+            <p>NPTEL — IIT Kharagpur</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT SECTION -->
+<section id="contact" class="contact">
+  <div class="orb orb-crimson-contact"></div>
+  <div class="orb orb-forest-contact"></div>
+  <div class="contact-inner reveal">
+    <p class="kicker"><span class="kicker-tag">GET IN TOUCH</span> 06 / CONTACT</p>
+    <h2>Have an opportunity or looking to <em>collaborate?</em></h2>
+    <p class="contact-sub">
+      Whether you're hiring for a Python Full Stack, AI/ML, or Software Quality Assurance role, my inbox is always open.
+    </p>
+
+    <!-- Social & Contact Grid -->
+    <div class="contact-card-grid">
+      <a href="https://www.linkedin.com/in/zalzameenmk21" target="_blank" rel="noopener" class="contact-box contact-linkedin">
+        <div class="box-icon">
+          <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 10.9v8.37H9.2V10.9H6.46M7.83 6.45a1.6 1.6 0 1 0 0 3.2 1.6 1.6 0 0 0 0-3.2z"/></svg>
+        </div>
+        <div class="box-text">
+          <span class="box-label">LinkedIn Profile</span>
+          <strong>/in/zalzameenmk21</strong>
+          <small>Connect professionally ↗</small>
+        </div>
+      </a>
+
+      <a href="mailto:zalzameenmk@gmail.com" class="contact-box contact-email">
+        <div class="box-icon">
+          <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><path d="M22 6l-10 7L2 6"/></svg>
+        </div>
+        <div class="box-text">
+          <span class="box-label">Direct Email</span>
+          <strong>zalzameenmk@gmail.com</strong>
+          <small>Send an email inquiry ↗</small>
+        </div>
+      </a>
+
+      <a href="https://github.com/Zalzameen21" target="_blank" rel="noopener" class="contact-box contact-github">
+        <div class="box-icon">
+          <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+        </div>
+        <div class="box-text">
+          <span class="box-label">GitHub Repository</span>
+          <strong>github.com/Zalzameen21</strong>
+          <small>Review source code ↗</small>
+        </div>
+      </a>
+
+      <a href="tel:+917356296069" class="contact-box contact-phone">
+        <div class="box-icon">
+          <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        </div>
+        <div class="box-text">
+          <span class="box-label">Direct Phone</span>
+          <strong>+91 7356296069</strong>
+          <small>Call or WhatsApp ↗</small>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-left">
+      <span class="footer-brand">Muhammed Zalzameen M K</span>
+      <span class="footer-sub">Master of Computer Applications (MCA) • Python & AI Developer</span>
+    </div>
+    <div class="footer-links">
+      <a href="https://www.linkedin.com/in/zalzameenmk21" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://github.com/Zalzameen21" target="_blank" rel="noopener">GitHub</a>
+      <a href="mailto:zalzameenmk@gmail.com">Email</a>
+      <a href="#home">Back to top ↑</a>
+    </div>
+  </div>
+</footer>
+
+<button class="top" aria-label="Back to top" id="scrollTopBtn">
+  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 15l-6-6-6 6"/></svg>
+</button>
+
+<script src="script.js"></script>
 </body>
 </html>
